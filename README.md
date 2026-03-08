@@ -1,109 +1,11 @@
-# g33kbot-ai-redteam
-G33kBot v1.0 - AI-Powered Red Team Orchestration Agent with MITRE ATT&amp;CK integration,  uncensored Ollama models, tool calling capabilities, and advanced RAG knowledge base.  Automate your penetration testing with intelligent attack chain orchestration.
 
-<img width="766" height="430" alt="image" src="https://github.com/user-attachments/assets/f71f0ea9-e9e4-4e1a-8c96-3dfbec803228" />
+
 
 red-team, penetration-testing, cybersecurity, ai-agent, ollama, mitre-attck, 
 ethical-hacking, security-tools, pentesting-framework, bug-bounty, cve-exploit, 
 malware-analysis, zero-day-hunting, offensive-security, infosec
 
-Repository Structure
-text
-G33kBot/
-├── g33kbot.sh                 # Main executable script
-├── README.md                  # Comprehensive documentation
-├── LICENSE                    # MIT License
-├── CONTRIBUTING.md            # Contribution guidelines
-├── CHANGELOG.md               # Version history
-├── .gitignore                 # Git ignore rules
-├── requirements.txt           # Dependencies
-├── setup.sh                    # Installation script
-├── update-rag.sh              # RAG database updater
-│
-├── docs/
-│   ├── INSTALLATION.md        # Detailed installation guide
-│   ├── USAGE.md               # Usage examples and commands
-│   ├── ARCHITECTURE.md        # System architecture
-│   ├── TOOLS.md                # Tool integration guide
-│   ├── RAG_SETUP.md           # RAG knowledge base setup
-│   ├── MITRE_INTEGRATION.md   # MITRE ATT&CK integration
-│   └── API.md                  # API documentation
-│
-├── config/
-│   ├── tools.yaml              # Tool configuration
-│   ├── models.yaml              # Model preferences
-│   └── prompts/                 # Custom prompt templates
-│       ├── pentester.yaml
-│       ├── exploit-dev.yaml
-│       ├── malware-analyst.yaml
-│       └── osint-expert.yaml
-│
-├── scripts/
-│   ├── tool_wrappers/           # Tool integration scripts
-│   │   ├── nmap_wrapper.py
-│   │   ├── metasploit_wrapper.py
-│   │   ├── hydra_wrapper.py
-│   │   └── ...
-│   ├── rag_indexer.py           # RAG indexing script
-│   ├── cve_fetcher.py           # CVE database updater
-│   └── exploit_db_manager.py     # ExploitDB integration
-│
-├── modules/
-│   ├── core/
-│   │   ├── ai_engine.py          # Ollama interaction
-│   │   ├── tool_manager.py       # Tool execution
-│   │   ├── rag_engine.py         # RAG retrieval
-│   │   └── session_manager.py    # Session handling
-│   ├── attack_chain/
-│   │   ├── mitre_mapper.py       # MITRE mapping
-│   │   ├── tactic_engine.py      # Tactic orchestration
-│   │   └── technique_db.py       # Technique database
-│   └── ui/
-│       ├── dashboard.sh           # UI components
-│       ├── colors.sh              # Color definitions
-│       └── animations.sh          # Terminal animations
-│
-├── web_ui/
-│   ├── index.html                 # Web dashboard
-│   ├── app.js                      # Frontend logic
-│   ├── style.css                   # Styling
-│   └── api/                        # Web API endpoints
-│       ├── query.php
-│       ├── tools.php
-│       └── sessions.php
-│
-├── docker/
-│   ├── Dockerfile                  # Docker container
-│   ├── docker-compose.yml          # Compose setup
-│   └── entrypoint.sh                # Container entrypoint
-│
-├── examples/
-│   ├── basic_usage.md
-│   ├── advanced_scenarios.md
-│   ├── redteam_scenarios/
-│   │   ├── external_pentest.md
-│   │   ├── internal_pentest.md
-│   │   ├── web_app_assessment.md
-│   │   ├── wireless_assessment.md
-│   │   └── physical_engagement.md
-│   └── video_tutorials.md
-│
-├── tests/
-│   ├── test_tools.sh
-│   ├── test_ai_engine.py
-│   └── test_integration.py
-│
-└── .github/
-    ├── ISSUE_TEMPLATE/
-    │   ├── bug_report.md
-    │   ├── feature_request.md
-    │   └── tool_request.md
-    ├── PULL_REQUEST_TEMPLATE.md
-    └── workflows/
-        ├── tests.yml
-        └── docker-publish.yml
-README.md
-markdown
+
 # 🚀 G33kBot - AI-Powered Red Team Orchestration Agent
 
 <p align="center">
